@@ -1,0 +1,29 @@
+body{
+    font-family:'Fira Code',sans-serif;
+    text-align:center;
+    background-color:rgba(0,0,0,0.9);
+}
+
+p{
+    animation: fade ease-in-out 5s infinite;
+    font-size:13em;
+    text-transform:uppercase;
+    text-shadow:10px 10px 10px red;
+}
+
+span#two{
+    text-decoration:underline;
+}
+span#one{
+    text-shadow:none;
+}
+
+
+@keyframes fade{
+    0%,100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
